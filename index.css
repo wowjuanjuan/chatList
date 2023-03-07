@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.wrapper-wrap {
+  width: 640px;
+  height: 830px;
+  position: relative;
+}
+#wrapper {
+  width: 640px;
+  height: 830px;
+  /* padding: 20px; */
+  background-image: url("./img/tooltip.png");
+  background-size: 640px 830px;
+  /* margin: 20px 0; */
+  overflow: auto;
+  /* position: absolute; */
+}
+
+.ipt {
+  /* position: absolute;
+  bottom: 0; */
+}
+.chat {
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+}
+.chat-name {
+  color: #dfb807;
+  font-size: large;
+  font-weight: bolder;
+}
+.chat-content {
+  width: 600px;
+  height: 120px;
+  /* background-color: #dfb807; */
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  color: #dddddd;
+}
+.chat-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  /* top: -5px; */
+  /* float: left; */
+}
+.chat-pic img {
+  position: absolute;
+}
+.chat-pic .chat-pic-head {
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+}
+.chat-pic .chat-pic-bacg {
+  width: 120px;
+  height: 120px;
+}
+.chat-text {
+  margin-top: 5px;
+  width: 370px;
+  height: 70px;
+  font-size: larger;
+  background-color: #362d02;
+  /* padding: 20px; */
+  /* background-color: aqua; */
+  /* background-image: url("./img/head-background.png"); */
+  /* background-size: cover; */
+  /* background-color: aqua; */
+  border-image-source: url("./img/head-background.png");
+  border-image-slice: 30 30 30 80 fill;
+  border-top: 20px solid;
+  border-right: 30px solid;
+  border-bottom: 20px solid;
+  border-left: 80px solid;
+  /* height: 358px;
+  width: 806px; */
+}
+/* img {
+  width: 60px;
+  border-radius: 50%;
+  transform: translateY(17px);
+} */
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+}
+#equipInfo {
+  width: 320px;
+  /* min-height: 0px; */
+  background: url("./img/tooltip.png");
+  background-size: contain;
+  background-size: 320px 100%;
+  /* background-repeat: no-repeat; */
+  font-size: 12px;
+  /* display: none;  */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #ffffff; */
+}
+.equipInfo-main {
+  color: #ffffff;
+}
+.equipInfo-others {
+  color: #9d9d9d;
+}
+.equipInfo-name {
+  color: #a335ee;
+  font-size: 14px;
+}
+.equipInfo-level {
+  color: #ffd100;
+}
+.equipInfo-mastery {
+  color: #1eff00;
+}
+.equipInfo-classes {
+  color: #c41e3a;
+}
+.equipInfo-suit {
+  color: #ffd100;
+}
+.whtt-sellprice {
+  color: #ffffff;
+}
